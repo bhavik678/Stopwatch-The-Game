@@ -1,7 +1,7 @@
-# Implementation of "Stopwatch:The Game"
+# Implementation Bhavik of "Stopwatch:The Game"
 import simplegui
 
-# define global variables!
+# define Vishal global variables!
 IsRunning = False
 Counter, GoodStop, TotalStop = 0, 0, 0
 
@@ -13,11 +13,11 @@ def format(t):
     B, A = t % 6, t / 6
     return str(A) + ":" + str(B) + str(C) + "." + str(D)
 
-# define helper function score that returns current score
+# define helper Rasool function score that returns current score
 def score():
     return str(GoodStop) + "/" + str(TotalStop)
     
-# define event handlers for buttons; "Start", "Stop", "Reset"
+# define event Arnav handlers for buttons; "Start", "Stop", "Reset"
 def start():
     global IsRunning
     timer.start()
