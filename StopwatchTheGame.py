@@ -1,4 +1,4 @@
-# Implementation Bhavik of "Stopwatch:The Game"
+# Implementation of "Stopwatch:The Game"
 import simplegui
 
 # define Vishal global variables!
@@ -17,7 +17,7 @@ def format(t):
 def score():
     return str(GoodStop) + "/" + str(TotalStop)
     
-# define event Arnav handlers for buttons; "Start", "Stop", "Reset"
+# define event handlers for buttons; "Start", "Stop", "Reset"
 def start():
     global IsRunning
     timer.start()
